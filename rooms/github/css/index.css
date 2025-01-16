@@ -1,0 +1,166 @@
+body {
+    background-image: url("../../../images/background01-indexpage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container-login {
+    height:100vh;
+    width:100%;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.no-vertical-scroll {
+    overflow-y: hidden;
+}
+.blur {
+    filter: blur(1.1rem);
+}
+.startSec {
+    display: flex;
+    padding-top: 30px;
+    height: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.guidelinesTitle, .createdDocsTitle {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.helpLink{
+    list-style-type: none;
+}
+.addDocLink{
+    padding-top: 15px;
+}
+.guidelinesText{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.helpCreateLink{
+    text-decoration: none;
+    color: blueviolet;
+}
+.form, .createSec, .existingDocs {
+    margin-top: 5vh;
+    justify-content: center;
+    padding-top: 5vh;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(12px);
+    cursor: default;
+}
+.createSec{
+    max-width: 100vw;
+}
+.existingDocs{
+    width: 490px;
+    max-width: 100vw;
+}
+.annTable{
+    overflow-y: scroll;
+    max-height: 250px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.79);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.909);
+  }
+  
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255, 255, 255, 0.3);
+  } 
+
+
+/* Google Application Page CSS */
+.startPart{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.title{
+    display: inline;
+    font-size: 2rem;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    color: #1e1f23;
+}
+.backBtn{
+    font-size: 2rem;
+    display: inline;
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+}
+.backButton{
+    color:rgb(5, 5, 5);
+    padding: 15px;
+    border-radius: 8px;
+}
+.backButton:hover{
+    border: 1.2px white solid;
+    background-color: rgba(156, 156, 156, 0.694);
+    color: rgb(255, 255, 255);
+
+}
+.backButton:active{
+    border: 1.2px white solid;
+    background-color: rgba(156, 156, 156, 0.694);
+    color: rgb(5, 5, 5);
+
+}
+.googleAppln {
+    margin-top: 0px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.googleAppln iframe {
+    width: 100%;
+    height: 90vh;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Github Page */
+.logoutBtn{
+    padding-top: 20px;
+    position: absolute;
+    right: 10px;
+}
+.gitBeg{
+    margin-top: 20px;
+}
